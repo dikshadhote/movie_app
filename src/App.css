@@ -19,13 +19,12 @@ body{
   box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
   position: relative;
   
+  
 }
 
 .movie-img
 {
-  max-width: 100%;
-  
-  
+  max-width: 100%; 
 }
 
 .movie-info
@@ -56,4 +55,21 @@ body{
 
 .movie:hover .movie-over{
   transform: translateY(0%);
+}
+header{
+  display:flex;
+  justify-content: flex-end;
+  background-color:#532d81 ;
+}
+
+.search{
+  margin-right:40px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  height:25px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color:white;
+  border-color: 2px solid #532d81;
 }
